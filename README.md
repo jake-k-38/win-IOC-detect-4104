@@ -30,9 +30,6 @@ Simply just run the script PsEvtScanner.ps1 to scan live event logs with an opti
 .\PsEvtScanner.ps1 | Format-List
 ```
 ```
-.\PsEvtScanner.ps1 | ConvertTo-Csv
-```
-```
 .\PsEvtScanner.ps1 | Format-Table
 ```
 ```
@@ -43,8 +40,5 @@ Simply just run the script PsEvtScanner.ps1 to scan live event logs with an opti
 ```
 ```
 .\PsEvtScanner.ps1 | ConvertTo-Json
-```
-```
-.\PsEvtScanner.ps1 | ConvertTo-Xml
 ```
 ## Notes
