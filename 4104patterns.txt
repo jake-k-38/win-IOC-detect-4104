@@ -1,0 +1,228 @@
+[\-|\/|–|—|―][Ee^]{1,2}[NnCcOoDdEeMmAa^]+\s+[A-Za-z0-9+/=]{5,}
+[\-|\/|–|—|―][Ww^]{1,2}[IiNnDdOoWwSsTtYyLlEe^]+\s+[Hh^]{1,2}[IiDdDdEeNn^]+
+[\-|\/|–|—|―][Nn^][OoPp]{2}
+[\-|\/|–|—|―][Ee^][XxEeCcUuTtIiOoNnPpOoLlIiCcYy]+\s+[0BbYyPpAaSsSs]+
+Add-Exfiltration
+Add-Persistence
+Add-RegBackdoor
+Add-ScrnSaveBackdoor
+Check-VM
+Do-Exfiltration
+Enabled-DuplicateToken
+Exploit-Jboss
+Find-Fruit
+Find-GPOLocation
+Find-TrustedDocuments
+Get-ApplicationHost
+Get-ChromeDump
+Get-ClipboardContents
+Get-FoxDump
+Get-GPPPassword
+Get-IndexedItem
+Get-Keystrokes
+LSASecret
+Get-PassHash
+Get-RegAlwaysInstallElevated
+Get-RegAutoLogon
+Get-RickAstley
+Get-Screenshot
+Get-SecurityPackages
+Get-ServiceFilePermission
+Get-ServicePermission
+Get-ServiceUnquoted
+Get-SiteListPassword
+Get-System
+Get-TimedScreenshot
+Get-UnattendedInstallFile
+Get-Unconstrained
+Get-VaultCredential
+Get-VulnAutoRun
+Get-VulnSchTask
+Gupt-Backdoor
+HTTP-Login
+Install-SSP
+Install-ServiceBinary
+Invoke-Obfuscation
+Invoke-ACLScanner
+Invoke-ADSBackdoor
+Invoke-ARPScan
+Invoke-AllChecks
+Invoke-BackdoorLNK
+Invoke-BypassUAC
+Invoke-CredentialInjection
+Invoke-DCSync
+Invoke-DllInjection
+Invoke-DowngradeAccount
+Invoke-EgressCheck
+Invoke-Inveigh
+Invoke-InveighRelay
+Invoke-Mimikittenz
+Invoke-NetRipper
+Invoke-NinjaCopy
+Invoke-PSInject
+Invoke-Paranoia
+Invoke-PortScan
+Invoke-PoshRat
+Invoke-PostExfil
+Invoke-PowerDump
+Invoke-PowerShellTCP
+Invoke-PsExec
+Invoke-PsUaCme
+Invoke-ReflectivePEInjection
+Invoke-ReverseDNSLookup
+Invoke-RunAs
+Invoke-SMBScanner
+Invoke-SSHCommand
+Invoke-Service
+Invoke-Shellcode
+Invoke-Tater
+Invoke-ThunderStruck
+Invoke-Token
+Invoke-UserHunter
+Invoke-VoiceTroll
+Invoke-WScriptBypassUAC
+Invoke-WinEnum
+MailRaider
+New-HoneyHash
+Out-Minidump
+Port-Scan
+PowerBreach
+PowerUp
+PowerView
+Remove-Update
+Set-MacAttribute
+Set-Wallpaper
+Show-TargetScreen
+Start-CaptureServer
+VolumeShadowCopyTools
+NEEEEWWW
+CachedRDPConnection
+invoke-hunter
+Install-Service
+remoteps
+New-NetFirewallRule
+Uninstall-Windows
+AmsiBypass
+nishang
+Invoke-Interceptor
+EXEonRemote
+NetworkRelay
+PowerShelludp
+PowerShellIcmp
+CreateShortcut
+copy-vss
+invoke-dll
+invoke-mass
+out-shortcut
+Invoke-ShellCommand
+frombase64
+frombase64string
+system.net.webclient
+mimikatz
+kerberos::golden
+kerberos::ptt
+SEKURLSA::Pth
+-dumpcr
+iex
+bitstransfer
+internetexplorer.application
+xmlhttp
+rundll32
+mimik
+metasp
+AssemblyBuilderAccess
+Reflection\.Assembly
+shellcode
+injection
+cnvert
+shell\.application
+start-process
+Rc4ByteStream
+System\.Security\.Cryptography
+lsass\.exe
+localadmin
+LastLoggedOn
+hijack
+BackupPrivilege
+ngrok
+comsvcs
+backdoor
+Exfiltration
+exploit
+DisableRealtimeMonitoring
+beacon
+syswow64
+http://127.0.0.1
+reflection
+wmiobject
+WMIMethod
+RemoteWMI
+PowerShellWmi
+wmicommand
+GZipStream
+::Decompress
+IO.Compression
+write-zip
+Expand-Archive
+Compress-Archive
+invoke-command
+invoke-expression
+.downloadstring
+.downloadfile
+(?:gal+\s).*
+-Value iex;iex\(
+Set-Alias
+powershell -version
+ -decode 
+ /decode 
+ -ma 
+ /ticket:
+ sekurlsa
+ p::d
+%COMSPEC%
+Start-BitsTransfer -Source
+ comsvcs.dll,MiniDump
+ comsvcs.dll,#24
+WScript.Shell
+WScriptShell.CreateShortcut
+WScriptShell.SpecialFolders
+at.exe \\
+HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions
+Add-MpPreference(?s).*ExclusionPath
+Add-MpPreference(?s).*ExclusionExtension
+Add-MpPreference(?s).*ExclusionProcess
+cmd.exe /Q /c
+cmd.exe /C(?s).*\\\\Temp\\
+cmd.exe /Q /c(?s).*\\\\127.0.0.1\\
+cmd /c schtasks /create /tn
+cmd /c schtasks /delete /tn
+schtasks(?s).*/create(?s).*AppData
+schtasks /create /s
+Microsoft\\Windows\\CurrentVersion\\Run
+ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp
+AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup
+reg SAVE HKLM\\SAM
+System32\\config\\SAM
+System32\\config\\SYSTEM
+System32\\config\\SECURITY
+Get-ADDefaultDomainPasswordPolicy
+get-aduser
+Get-ADUserResultantPasswordPolicy
+Get-DomainPolicy
+get-domaintrust
+Get-DomainUser
+get-foresttrust
+Get-AdComputer
+Get-ADGroup
+[System.Security.Principal.WindowsIdentity]
+Get-DomainComputer
+Get-DomainController
+Get-DomainGroup
+Get-LocalUser
+Get-NetTcpconnection
+namespace root\\directory\\ldap
+get-localgroup
+$env:UserName
+[System.Environment]::UserName
+[Runtime.InteropServices.Marshal]
+ConvertTo-SecureString
