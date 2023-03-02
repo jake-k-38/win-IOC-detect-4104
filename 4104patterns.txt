@@ -2,6 +2,8 @@
 [\-|\/|–|—|―][Ww^]{1,2}[IiNnDdOoWwSsTtYyLlEe^]+\s+[Hh^]{1,2}[IiDdDdEeNn^]+
 [\-|\/|–|—|―][Nn^][OoPp]{2}
 [\-|\/|–|—|―][Ee^][XxEeCcUuTtIiOoNnPpOoLlIiCcYy]+\s+[0BbYyPpAaSsSs]+
+[A-Za-z0-9+\/]{44,}([A-Za-z0-9+\/]{4}|[A-Za-z0-9+\/]{3}=|[A-Za-z0-9+\/]{2}==)
+(?:\$doit)
 Add-Exfiltration
 Add-Persistence
 Add-RegBackdoor
