@@ -1,5 +1,3 @@
-#Requires -RunAsAdministrator
-
 <#
 .SYNOPSIS
 Window Event 4104 IOC Detection Script
